@@ -14,6 +14,7 @@ theme = 'paper'
         url = "https://github.com/piot5"
 
 [markup]
+
   [markup.highlight]
     codeFences = true
     guessSyntax = true
