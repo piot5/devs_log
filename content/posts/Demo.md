@@ -6,6 +6,11 @@ description: "Neutralizing monitor setup pain points via Win32 API staging."
 tags: ["Rust", "Windows", "GDI"]
 ---
 
-Managing monitor setups
+Switching monitor setups
 
 
+
+<video width="100%" height="auto" controls autoplay loop muted playsinline>
+  <source src="/videos/live_displayflow.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
