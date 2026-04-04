@@ -1,0 +1,39 @@
+baseURL = 'https://piot5.github.io/devs_log/'
+languageCode = 'en-us'
+title = "A Dev's Journey"
+theme = 'paper'
+
+# Core Parameters
+[params]
+    author = "piot5"
+    description = "A developer's log about coding, engines, and logic."
+    showReadingTime = true
+    # Optional: Social links often used in Paper theme
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/piot5"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = 'github-dark'
+    noClasses = true
+  [markup.goldmark.renderer]
+    unsafe = true # Allows HTML in Markdown (useful for custom diagrams/embeds)
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+    series = "series"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 20
