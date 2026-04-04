@@ -1,6 +1,6 @@
 baseURL = 'https://piot5.github.io/devs_log/'
 languageCode = 'en-us'
-title = "A Dev's Journey"
+title = "Dev's Log"
 theme = 'paper'
 
 # Core Parameters

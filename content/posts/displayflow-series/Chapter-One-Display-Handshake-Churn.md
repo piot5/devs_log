@@ -1,6 +1,6 @@
 ---
 title: "Chapter One: Display Handshake Churn"
-date: 2026-04-03
+date: 2026-02-03
 draft: false
 description: "Neutralizing monitor setup pain points via Win32 API staging."
 tags: ["Rust", "Windows", "GDI"]

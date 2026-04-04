@@ -1,6 +1,6 @@
 ---
 title: "Chapter Two: The Pipe Bridge"
-date: 2026-01-04
+date: 2026-03-04
 tags: ["IPC", "Rust", "Architecture"]
 description: "Decoupling Engine from the frontend using Windows Named Pipes."
 ---
