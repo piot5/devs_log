@@ -9,7 +9,7 @@ theme = 'paper'
     description = "A developer's log about coding, engines, and logic."
     showReadingTime = true
     # Optional: Social links often used in Paper theme
-    [[params.social]]
+[[params.social]]
         name = "github"
         url = "https://github.com/piot5"
 
@@ -38,3 +38,11 @@ theme = 'paper'
     name = "Posts"
     url = "/posts"
     weight = 20
+
+[mediaTypes]
+  [mediaTypes."video/webm"]
+    suffixes = ["webm"]
+
+[outputFormats]
+  [outputFormats.HTML]
+    mediaType = "text/html"
