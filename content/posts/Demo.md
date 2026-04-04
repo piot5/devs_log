@@ -11,7 +11,6 @@ Switching monitor setups
 
 
 <video width="100%" height="auto" controls autoplay loop muted playsinline>
-  <source src="/static/videos/live_displayflow.webm">
+  <source src="/videos/live_displayflow.webm" type="video/webm">
   Your browser does not support the video tag.
 </video>
-https://github.com/piot5/devs_log/blob/main/static/videos/live_displayflow.webm
