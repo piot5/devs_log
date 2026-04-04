@@ -29,23 +29,21 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+          lfs: true
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
+
       - name: Build with Hugo
         run: hugo --minify
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-- name: Checkout
-  uses: actions/checkout@v4
-  with:
-    submodules: recursive
-    fetch-depth: 0
-    lfs: true 
 
   deploy:
     environment:
@@ -57,4 +55,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
