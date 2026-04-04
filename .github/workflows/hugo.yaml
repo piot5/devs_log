@@ -40,6 +40,12 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
+- name: Checkout
+  uses: actions/checkout@v4
+  with:
+    submodules: recursive
+    fetch-depth: 0
+    lfs: true 
 
   deploy:
     environment:
@@ -51,3 +57,4 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
