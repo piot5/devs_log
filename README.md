@@ -1,1 +1,1 @@
-# devs_journey
+# devs_log
