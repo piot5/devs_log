@@ -3,18 +3,22 @@ languageCode = 'en-us'
 title = "Dev's Log"
 theme = 'paper'
 
-# Core Parameters
+# Automatische Bereinigung des Zielverzeichnisses bei jedem Build
+cleanDestinationDir = true
+
 [params]
     author = "piot5"
     description = "A developer's log about coding, engines, and logic."
     showReadingTime = true
-    # Optional: Social links often used in Paper theme
+    # Globale Projekt-Links
+    github_repo = "https://github.com/piot5/displayflow"
+    landing_page = "https://piot5.github.io/displayflow_cli/"
+
 [[params.social]]
-        name = "github"
-        url = "https://github.com/piot5"
+    name = "github"
+    url = "https://github.com/piot5"
 
 [markup]
-
   [markup.highlight]
     codeFences = true
     guessSyntax = true
@@ -22,7 +26,7 @@ theme = 'paper'
     style = 'github-dark'
     noClasses = true
   [markup.goldmark.renderer]
-    unsafe = true # Allows HTML in Markdown (useful for custom diagrams/embeds)
+    unsafe = true # Ermöglicht HTML-Elemente in Markdown-Dateien
 
 [taxonomies]
     category = "categories"
@@ -38,11 +42,3 @@ theme = 'paper'
     name = "Posts"
     url = "/posts"
     weight = 20
-
-[mediaTypes]
-  [mediaTypes."video/webm"]
-    suffixes = ["webm"]
-
-[outputFormats]
-  [outputFormats.HTML]
-    mediaType = "text/html"
