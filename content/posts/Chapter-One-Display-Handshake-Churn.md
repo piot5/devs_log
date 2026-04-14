@@ -55,3 +55,8 @@ pub fn stage_config(&self, device_name: &str, task: &DisplayTask) -> bool {
         } else { false }
     }
 }
+```
+
+
+
+Back to Project: [GitHub]({{< param project_url >}}) | [Official Website]({{< param landing_page >}}) | [Demo Video]({{< param youtube_demo >}})

@@ -1,6 +1,6 @@
 ---
 title: "Chapter Two: Talking to the Silicon"
-date: 2026-04-20
+date: 2026-03-05
 tags: ["DDC/CI", "VCP Codes", "Low-level Hardware", "Rust"]
 description: "Bypassing the OS to control monitor brightness and contrast directly via DDC/CI."
 project_url: "https://github.com/piot5/displayflow"
@@ -49,3 +49,6 @@ while let Ok(cmd) = rx.recv() {
 By refactoring the current `ddc.rs` to use the `ddc` and `ddc-winapi` crates, we gain better error handling for "Ghost Commands" (commands sent to monitors that support DDC but ignore specific VCP codes). This transition marks the move from a pure Windows utility to a structured hardware controller.
 
 ---
+
+
+Back to Project: [GitHub]({{< param project_url >}}) | [Official Website]({{< param landing_page >}}) | [Demo Video]({{< param youtube_demo >}})
