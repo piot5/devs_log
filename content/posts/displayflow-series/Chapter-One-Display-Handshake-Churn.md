@@ -6,6 +6,7 @@ description: "Neutralizing monitor setup pain points via Win32 API staging."
 project_url: "https://github.com/piot5/displayflow"
 landing_page: "https://piot5.github.io/displayflow_cli/"
 youtube_demo: "https://www.youtube.com/watch?v=_ch6X-_A2Ms"
+---
 
 Managing monitor setups—resolutions, positions, and orientations—is a notorious pain point. While Windows provides a UI, automating it involves navigating the deep waters of the **GDI (Graphics Device Interface)**.
 
